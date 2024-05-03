@@ -6,12 +6,12 @@ const getQuetions = (
     sourceToken?: CancelToken
 ) =>
     instance.get<Quetions[]>(
-        `items`,
+        `quetions`,
         { cancelToken: sourceToken }
     );
 
 const getQuetionsById = (id?: number, sourceToken?: CancelToken) =>
-    instance.get<Quetions>(`/items/${id}`, {
+    instance.get<Quetions>(`/quetions/${id}`, {
         cancelToken: sourceToken,
     });
 

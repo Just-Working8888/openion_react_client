@@ -5,7 +5,7 @@ import news from './news'
 
 const instance = axios.create({
   // @ts-ignore
-  baseURL: window.REACT_APP_SERVER_API !== 'REPLACE_REACT_APP_SERVER_API' ? window.REACT_APP_SERVER_API : process.env.REACT_APP_SERVER_API || 'http://localhost:3003/',
+  baseURL: window.REACT_APP_SERVER_API !== 'REPLACE_REACT_APP_SERVER_API' ? window.REACT_APP_SERVER_API : process.env.REACT_APP_SERVER_API || 'http://localhost:7002',
   // headers: {
   //   Authorization: `Bearer ${getCookie('access_token')}`
   // }

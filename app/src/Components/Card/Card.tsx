@@ -16,7 +16,7 @@ const TestCard: React.FC<CardType> = ({ image, title, id }) => {
             onClick={() => navigate(`fullscreen/test/${id}`)}
             hoverable
             style={{ width: 440 }}
-            cover={<img height={300} alt="example" src={image} />}
+            cover={<img height={300} alt="example" src={`http://localhost:7002/${image}`} />}
         >
             <Meta title={title} description="www.instagram.com" />
         </Card>

@@ -19,7 +19,6 @@ const MainPage: FC = () => {
   return (
     <div className={classes.main}>
       <Baner />
-      <MyComponent />
       <div>
         <Typography>
           <Title>Introduction</Title>
